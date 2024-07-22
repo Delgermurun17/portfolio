@@ -12,7 +12,7 @@ export function GetInTouch(){
         <div className="mx-auto flex w-full max-w-7xl flex-col gap-6 px-4 md:gap-12 md:px-8 md:my-24 my-20">
             <div className="flex flex-col items-center gap-4">
             <div className="flex justify-center"><Tag ner="Get in touch" /></div>
-            <div className="text-center mt-4 text-gray-600 text-normal text-xl max-w-xl dark:text-gray-300">What’s next? Feel free to reach out to me if you're looking for a developer, have a query, or simply want to connect.</div>
+            <div className="text-center mt-4 text-gray-600 text-normal text-xl max-w-xl dark:text-gray-300">What&apos;s next? Feel free to reach out to me if you&apos;re looking for a developer, have a query, or simply want to connect.</div>
             <div className="flex flex-col items-center text-gray-600 dark:text-gray-300">
             <div className="flex items-center">
                 <LuMail className="md:size-8 size-6"/>

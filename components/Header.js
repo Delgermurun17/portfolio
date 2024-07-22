@@ -4,6 +4,7 @@ import { useState } from "react";
 import { IoClose } from "react-icons/io5";
 import { LuMoonStar } from "react-icons/lu";
 import { Menubar } from "./Menubar";
+import Link from "next/link";
 
 
 
@@ -22,11 +23,11 @@ export function Header() {
 
   return (
     <div className="mx-auto flex w-full max-w-7xl items-center justify-between m-[auto] px-4 md:px-8 py-4">
-      <div><a target="_self" class="" href="/">
+      <div><Link target="_self" class="" href="/">
         <div class="text-2xl md:text-3xl tracking-[-0.02em] text-gray-900 dark:text-gray-50 font-bold">
           &lt;SS /&gt;
         </div>
-      </a>
+      </Link>
       </div>
         <div className="flex justify-between items-center font-medium text-base text-gray-600 dark:text-gray-300"><div className="hidden md:block">
           <div className="flex">

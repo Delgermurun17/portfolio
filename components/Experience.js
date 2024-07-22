@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { List } from "./List";
 import { Tag } from "./Tag";
 
@@ -9,7 +10,7 @@ export function Experience(){
                 <div className="text-center mt-4 text-gray-600 dark:text-gray-300 text-normal text-lg md:text-xl max-w-xl">Here is a quick summary of my most recent experiences:</div>
             </div>
             <div className="rounded-xl bg-gray shadow-md dark:bg-gray-800 dark:shadow-2xl mx-auto flex w-full max-w-4xl flex-col justify-between gap-4 p-8 md:flex-row md:gap-8">
-               <div> <img src="upwork.svg" /></div>
+               <div> <Image alt="upwork" width={102} height={28} src="upwork.svg" /></div>
                <div className="flex flex-col gap-4 max-md:order-3 md:w-2/4"><div className="text-lg md:text-xl font-semibold text-gray-900 dark:text-gray-50">Sr. Frontend Developer</div>
                 <List list="Lorem ipsum dolr sit amet, consectetur adipiscing elit." />
                 <List list="Ut pretium arcu et massa semper, id fringilla leo semper." />
@@ -19,7 +20,7 @@ export function Experience(){
                <div className="text-base text-gray-700 font-normal dark:text-gray-200">Nov 2021 - Present</div>
             </div>
             <div className="rounded-xl bg-gray shadow-md dark:bg-gray-800 dark:shadow-2xl mx-auto flex w-full max-w-4xl flex-col justify-between gap-4 p-8 md:flex-row md:gap-8">
-                <div> <img src="upwork.svg" /></div>
+                <div> <Image alt="upwork" width={102} height={28} src="upwork.svg" /></div>
                 <div className="flex flex-col gap-4 max-md:order-3 md:w-2/4">
                     <div className="text-lg md:text-xl font-semibold text-gray-900 dark:text-gray-50">Team Lead</div>
                     <List list="Sed quis justo ac magna." />
@@ -30,7 +31,7 @@ export function Experience(){
                 <div className="text-base text-gray-700 font-normal dark:text-gray-200">Jul 2017 - Oct 2021</div>
             </div>
             <div className="rounded-xl bg-gray shadow-md dark:bg-gray-800 dark:shadow-2xl mx-auto flex w-full max-w-4xl flex-col justify-between gap-4 p-8 md:flex-row md:gap-8">
-                <div> <img src="upwork.svg" /></div>
+                <div> <Image alt="upwork" width={102} height={28} src="upwork.svg" /></div>
                 <div className="flex flex-col gap-4 max-md:order-3 md:w-2/4">
                     <div className="text-lg md:text-xl font-semibold text-gray-900 dark:text-gray-50">Full Stack Developer</div>
                     <List list="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit." />

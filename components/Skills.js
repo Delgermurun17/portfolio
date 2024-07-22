@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Tag } from "./Tag";
 
 export function Skills(){
@@ -7,22 +8,22 @@ export function Skills(){
         The skills, tools and technologies I am really good at:
         </div>
         <div className="grid grid-cols-3 gap-y-4 md:grid-cols-6 md:gap-y-8 lg:grid-cols-8 lg:gap-y-12 md:mt-12 mt-6">
-            <div className="text-lg font-normal text-gray-600 mb-12 flex flex-col items-center gap-2"><img className="transition-transform duration-300 md:hover:scale-110" src="skills/js.svg"/>Javascript</div>
-            <div className="text-lg font-normal text-gray-600 mb-12 flex flex-col items-center gap-2"><img className="transition-transform duration-300 md:hover:scale-110" src="skills/ts.svg"/>Typescript</div>
-            <div className="text-lg font-normal text-gray-600 mb-12 flex flex-col items-center gap-2"><img className="transition-transform duration-300 md:hover:scale-110" src="skills/react.svg"/>React</div>
-            <div className="text-lg font-normal text-gray-600 mb-12 flex flex-col items-center gap-2"><img className="transition-transform duration-300 md:hover:scale-110" src="skills/next.svg"/>Next.js</div>
-            <div className="text-lg font-normal text-gray-600 mb-12 flex flex-col items-center gap-2"><img className="transition-transform duration-300 md:hover:scale-110" src="skills/node.svg"/>Node.js</div>
-            <div className="text-lg font-normal text-gray-600 mb-12 flex flex-col items-center gap-2"><img className="dark:hidden transition-transform duration-300 md:hover:scale-110" src="skills/ex.svg"/><img className="hidden dark:block transition-transform duration-300 md:hover:scale-110" src="skills/ex-dark.svg"/>Express.js</div>
-            <div className="text-lg font-normal text-gray-600 mb-12 flex flex-col items-center gap-2"><img className="transition-transform duration-300 md:hover:scale-110" src="skills/nest.svg"/>Nest.js</div>
-            <div className="text-lg font-normal text-gray-600 mb-12 flex flex-col items-center gap-2"><img className="dark:hidden transition-transform duration-300 md:hover:scale-110" src="skills/socket.svg"/><img className="hidden dark:block transition-transform duration-300 md:hover:scale-110" src="skills/socket-dark.svg"/>Socket.js</div>
-            <div className="text-lg font-normal text-gray-600 mb-12 flex flex-col items-center gap-2"><img className="transition-transform duration-300 md:hover:scale-110" src="skills/postgre.svg"/>PostgreSQL</div>
-            <div className="text-lg font-normal text-gray-600 mb-12 flex flex-col items-center gap-2"><img className="transition-transform duration-300 md:hover:scale-110" src="skills/mongo.svg"/>MongoDB</div>
-            <div className="text-lg font-normal text-gray-600 mb-12 flex flex-col items-center gap-2"><img className="transition-transform duration-300 md:hover:scale-110" src="skills/sass.svg"/>Sass/Scss</div>
-            <div className="text-lg font-normal text-gray-600 mb-12 flex flex-col items-center gap-2"><img className="transition-transform duration-300 md:hover:scale-110" src="skills/tailwind.svg"/>Tailwindcss</div>
-            <div className="text-lg font-normal text-gray-600 mb-12 flex flex-col items-center gap-2"><img className="transition-transform duration-300 md:hover:scale-110" src="skills/figma.svg"/>Figma</div>
-            <div className="text-lg font-normal text-gray-600 mb-12 flex flex-col items-center gap-2"><img className="dark:hidden transition-transform duration-300 md:hover:scale-110" src="skills/cy.svg"/><img className="hidden dark:block transition-transform duration-300 md:hover:scale-110" src="skills/cy-dark.svg"/>Cypress</div>
-            <div className="text-lg font-normal text-gray-600 mb-12 flex flex-col items-center gap-2"><img className="transition-transform duration-300 md:hover:scale-110" src="skills/story.svg"/>Storybook</div>
-            <div className="text-lg font-normal text-gray-600 mb-12 flex flex-col items-center gap-2"><img className="transition-transform duration-300 md:hover:scale-110" src="skills/git.svg"/>Git</div>
+            <div className="text-lg font-normal text-gray-600 mb-12 flex flex-col items-center gap-2"><Image width={64} height={64} alt="skills" className="transition-transform duration-300 md:hover:scale-110" src="skills/js.svg"/>Javascript</div>
+            <div className="text-lg font-normal text-gray-600 mb-12 flex flex-col items-center gap-2"><Image width={64} height={64} alt="skills" className="transition-transform duration-300 md:hover:scale-110" src="skills/ts.svg"/>Typescript</div>
+            <div className="text-lg font-normal text-gray-600 mb-12 flex flex-col items-center gap-2"><Image width={71} height={64} alt="skills" className="transition-transform duration-300 md:hover:scale-110" src="skills/react.svg"/>React</div>
+            <div className="text-lg font-normal text-gray-600 mb-12 flex flex-col items-center gap-2"><Image width={64} height={64} alt="skills" className="transition-transform duration-300 md:hover:scale-110" src="skills/next.svg"/>Next.js</div>
+            <div className="text-lg font-normal text-gray-600 mb-12 flex flex-col items-center gap-2"><Image width={57} height={64} alt="skills" className="transition-transform duration-300 md:hover:scale-110" src="skills/node.svg"/>Node.js</div>
+            <div className="text-lg font-normal text-gray-600 mb-12 flex flex-col items-center gap-2"><Image width={64} height={64} alt="skills" className="dark:hidden transition-transform duration-300 md:hover:scale-110" src="skills/ex.svg"/><Image width={64} height={64} alt="skills" className="hidden dark:block transition-transform duration-300 md:hover:scale-110" src="skills/ex-dark.svg"/>Express.js</div>
+            <div className="text-lg font-normal text-gray-600 mb-12 flex flex-col items-center gap-2"><Image width={64} height={64} alt="skills" className="transition-transform duration-300 md:hover:scale-110" src="skills/nest.svg"/>Nest.js</div>
+            <div className="text-lg font-normal text-gray-600 mb-12 flex flex-col items-center gap-2"><Image width={64} height={64} alt="skills" className="dark:hidden transition-transform duration-300 md:hover:scale-110" src="skills/socket.svg"/><Image width={64} height={64} alt="skills" className="hidden dark:block transition-transform duration-300 md:hover:scale-110" src="skills/socket-dark.svg"/>Socket.js</div>
+            <div className="text-lg font-normal text-gray-600 mb-12 flex flex-col items-center gap-2"><Image width={64} height={64} alt="skills" className="transition-transform duration-300 md:hover:scale-110" src="skills/postgre.svg"/>PostgreSQL</div>
+            <div className="text-lg font-normal text-gray-600 mb-12 flex flex-col items-center gap-2"><Image width={31} height={64} alt="skills" className="transition-transform duration-300 md:hover:scale-110" src="skills/mongo.svg"/>MongoDB</div>
+            <div className="text-lg font-normal text-gray-600 mb-12 flex flex-col items-center gap-2"><Image width={64} height={64} alt="skills" className="transition-transform duration-300 md:hover:scale-110" src="skills/sass.svg"/>Sass/Scss</div>
+            <div className="text-lg font-normal text-gray-600 mb-12 flex flex-col items-center gap-2"><Image width={106} height={64} alt="skills" className="transition-transform duration-300 md:hover:scale-110" src="skills/tailwind.svg"/>Tailwindcss</div>
+            <div className="text-lg font-normal text-gray-600 mb-12 flex flex-col items-center gap-2"><Image width={44} height={64} alt="skills" className="transition-transform duration-300 md:hover:scale-110" src="skills/figma.svg"/>Figma</div>
+            <div className="text-lg font-normal text-gray-600 mb-12 flex flex-col items-center gap-2"><Image width={64} height={64} alt="skills" className="dark:hidden transition-transform duration-300 md:hover:scale-110" src="skills/cy.svg"/><Image width={64} height={64} alt="skills" className="hidden dark:block transition-transform duration-300 md:hover:scale-110" src="skills/cy-dark.svg"/>Cypress</div>
+            <div className="text-lg font-normal text-gray-600 mb-12 flex flex-col items-center gap-2"><Image width={64} height={64} alt="skills" className="transition-transform duration-300 md:hover:scale-110" src="skills/story.svg"/>Storybook</div>
+            <div className="text-lg font-normal text-gray-600 mb-12 flex flex-col items-center gap-2"><Image width={64} height={64} alt="skills" className="transition-transform duration-300 md:hover:scale-110" src="skills/git.svg"/>Git</div>
         </div>
     </div>
 }
