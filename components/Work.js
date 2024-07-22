@@ -60,7 +60,7 @@ export function Work(){
         </div>
         <div className="flex flex-col gap-6 p-8 md:w-1/2 lg:p-12">
             <div className="text-lg md:text-xl font-semibold text-gray-900 dark:text-gray-50">Fiskil</div>
-            <div className="text-normal text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.</div>
+            <div className="text-normal text-base">Loorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.</div>
             <div className="flex flex-wrap gap-2">
                 <Tag ner="React" />
                 <Tag ner="Next.js" />       
