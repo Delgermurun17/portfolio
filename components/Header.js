@@ -23,8 +23,8 @@ export function Header() {
 
   return (
     <div className="mx-auto flex w-full max-w-7xl items-center justify-between m-[auto] px-4 md:px-8 py-4">
-      <div><Link target="_self" class="" href="/">
-        <div class="text-2xl md:text-3xl tracking-[-0.02em] text-gray-900 dark:text-gray-50 font-bold">
+      <div><Link target="_self" className="" href="/">
+        <div className="text-2xl md:text-3xl tracking-[-0.02em] text-gray-900 dark:text-gray-50 font-bold">
           &lt;SS /&gt;
         </div>
       </Link>
@@ -49,7 +49,7 @@ export function Header() {
           <div onClick={closeMenu} className="fixed inset-0 bg-gray-400 dark:bg-white"></div>
           <div className="fixed top-0 bottom-0 right-0 w-[320px] text-black dark:text-white bg-white dark:bg-black shadow-lg">
             <div className="flex justify-between m-4">
-              <div class="text-2xl md:text-3xl tracking-[-0.02em] text-gray-900 dark:text-gray-50 font-bold">
+              <div className="text-2xl md:text-3xl tracking-[-0.02em] text-gray-900 dark:text-gray-50 font-bold">
                 &lt;SS /&gt;
               </div>
               <div className="size-9 flex justify-center items-center">
